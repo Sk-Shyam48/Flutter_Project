@@ -37,9 +37,11 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        body: Column(
+        body: SingleChildScrollView(
+          child: Column(
           children: rows,
         ),
+      ),
       ),
     );
   }
